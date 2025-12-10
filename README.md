@@ -79,11 +79,19 @@ ToDouble() - вещественное значение (с кэшировани�
 SetNumerator(int value) - установка числителя
 SetDenominator(int value) - установка знаменателя
 
+<img width="391" height="450" alt="image" src="https://github.com/user-attachments/assets/80fbe4d5-5118-4567-b6c7-c6ac5e1f87ae" />
+<img width="487" height="190" alt="image" src="https://github.com/user-attachments/assets/11ff3558-3005-473e-a78d-2a991e892518" />
+
 Задание 2.2
 Переопределен метод Equals() для сравнения по состоянию.
 
+<img width="321" height="72" alt="image" src="https://github.com/user-attachments/assets/d8a47203-cb6a-4d0c-9c36-5b2298750b62" />
+
 Задание 2.3
 Метод Clone() создает новый объект Fraction с теми же значениями полей
+
+<img width="295" height="73" alt="image" src="https://github.com/user-attachments/assets/e29ddc99-db04-424b-b49e-3a82dd315b90" />
+
 
 Задание 2.4
 Интерфейс IFractionActions:
@@ -91,3 +99,5 @@ SetDenominator(int value) - установка знаменателя
 double ToDouble() - получение вещественного значения
 void SetNumerator(int value) - установка числителя
 void SetDenominator(int value) - установка знаменателя
+
+<img width="470" height="213" alt="image" src="https://github.com/user-attachments/assets/6eea347c-65d4-4c97-8a7b-72e0c4d6f7be" />
