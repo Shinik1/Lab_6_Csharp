@@ -1,4 +1,4 @@
-ЗАДАНИЕ 1.1: КОТ
+ЗАДАНИЕ 1: КОТ
 Цель: Создать сущность Кота с возможностью мяукать.
 
 Класс Cat
@@ -55,3 +55,39 @@ ToString() - возвращает информацию о счетчике
 <img width="557" height="257" alt="image" src="https://github.com/user-attachments/assets/afb2a295-bbba-4119-80b2-1196177b828d" />
 
 
+Задание 2: Дроби
+
+Класс Fraction
+Поля:
+private int numerator - числитель
+private int denominator - знаменатель
+private double? cachedValue - кэш вещественного значения
+
+Конструктор:
+Fraction(int num, int den) - создает дробь с проверкой знаменателя
+
+Методы:
+Sum(Fraction other) - сложение дробей
+Minus(Fraction other) - вычитание дробей
+Minus(int value) - вычитание целого числа
+Mul(Fraction other) - умножение дробей
+Div(Fraction other) - деление дробей
+ToString() - возвращает "числитель/знаменатель"
+Equals(object obj) - сравнение дробей
+Clone() - клонирование (ICloneable)
+ToDouble() - вещественное значение (с кэшированием)
+SetNumerator(int value) - установка числителя
+SetDenominator(int value) - установка знаменателя
+
+Задание 2.2
+Переопределен метод Equals() для сравнения по состоянию.
+
+Задание 2.3
+Метод Clone() создает новый объект Fraction с теми же значениями полей
+
+Задание 2.4
+Интерфейс IFractionActions:
+
+double ToDouble() - получение вещественного значения
+void SetNumerator(int value) - установка числителя
+void SetDenominator(int value) - установка знаменателя
